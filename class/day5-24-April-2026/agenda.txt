@@ -1,0 +1,14 @@
+
+sign in page revision.
+
+input type - date variations.
+
+use of name attribute in form tags.
+
+form development - signup form review
+
+<!-- rename id value to 'remember-me' -->
+create page for forgot password form and use name attribute in form tags.
+
+image tags - img overview, attributes (src, alt, title, width, height)
+

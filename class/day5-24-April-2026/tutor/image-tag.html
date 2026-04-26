@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Tag Demo</title>
+    <style>
+      body {
+        font-family: Arial;
+        padding: 20px;
+      }
+      h2 {
+        color: #2c3e50;
+      }
+      img {
+        margin: 10px 0;
+        border: 2px solid #ccc;
+      }
+      .box {
+        margin-bottom: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>HTML &lt;img&gt; Tag Demo</h1>
+
+    <!-- Example 1: Basic Image -->
+    <div class="box">
+      <h2>1. Basic Image (Direct URL)</h2>
+      <img src="https://picsum.photos/300" alt="Random Image" />
+    </div>
+
+    <!-- Example 2: Fixed Size -->
+    <div class="box">
+      <h2>2. Image with Width & Height</h2>
+      <img
+        src="https://picsum.photos/300"
+        alt="Sized Image"
+        width="200"
+        height="150"
+      />
+    </div>
+
+    <!-- Example 3: Broken Image -->
+    <div class="box">
+      <h2>3. Broken Image Example</h2>
+      <img src="https://example.com/notfound.jpg" alt="Broken Image" />
+      <p>Note: Image will not load (wrong URL)</p>
+    </div>
+
+    <!-- Example 4: Clickable Image -->
+    <div class="box">
+      <h2>4. Clickable Image</h2>
+      <a href="https://www.google.com" target="_blank">
+        <img src="https://picsum.photos/200" alt="Clickable Image" />
+      </a>
+    </div>
+
+    <!-- Example 5: Local Image (Explain in class) -->
+    <div class="box">
+      <h2>5. Local Image (Same Folder)</h2>
+      <img src="sample.jpg" alt="Local Image" />
+      <p>Note: This works only if image exists in same folder</p>
+    </div>
+
+    <!-- Example 6: GIF Image -->
+    <div class="box">
+      <h2>6. GIF Image</h2>
+      <img
+        src="https://media.giphy.com/media/ICOgUNjpvO0PC/giphy.gif"
+        alt="GIF"
+      />
+    </div>
+
+    <!-- Example 7: Responsive Image -->
+    <div class="box">
+      <h2>7. Responsive Image (100% width)</h2>
+      <img
+        src="https://picsum.photos/600"
+        alt="Responsive"
+        style="width: 100%; height: auto"
+      />
+    </div>
+  </body>
+</html>
