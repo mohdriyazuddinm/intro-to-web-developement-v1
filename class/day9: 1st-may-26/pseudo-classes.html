@@ -20,8 +20,14 @@
   .child-example {
     color: crimson;
   }
-  .child-example:nth-child(2n) {
-    color: limegreen;
+  .child-example:first-child {
+    color: rgb(224, 249, 224);
+  }
+  .child-example:last-child {
+    color: rgb(224, 249, 224);
+  }
+  .child-example:nth-child(2) {
+    color: rgb(224, 249, 224);
   }
 </style>
 <ol>
@@ -91,7 +97,7 @@
   .first-letter-example {
     font-size: 16px;
   }
-  .first-letter-example::first-letter {
+  .first-letter-example:first-letter {
     font-size: 32px;
     font-weight: bold;
     color: crimson;

@@ -1,0 +1,11 @@
+(display: inline, block, inline-block, none)
+display none and visibility hidden difference.
+
+css box model: content, padding, border, margin 
+content - the actual content of the element, such as text or images.
+padding - the space between the content and the border of the element.
+border - the line that surrounds the padding and content of the element.
+margin - the space outside the border that separates the element from other elements on the page.
+(box-sizing: content-box, border-box)
+
+task: build product card as per the given design.
