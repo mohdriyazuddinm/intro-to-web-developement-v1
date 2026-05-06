@@ -29,5 +29,6 @@ html, head, body
 - font-family,(not covered in depth but mentioned)
 - font-size,
 - font-weight(normal, bold, 100-900),
-- text-alisgn (left, right, center),(to be covered)
+- text-align (left, right, center),(to be covered)
 - text-decoration (underline, overline, line-through)
+- inherit: reset to default value, and unset the current value.

@@ -1,0 +1,9 @@
+github PR overview.
+
+flexbox css: start with game of flexboxfroggy.
+https://flexboxfroggy.com/
+https://courses.cs.washington.edu/courses/cse154/flexboxducky/
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+task: build product card as per the given design.
