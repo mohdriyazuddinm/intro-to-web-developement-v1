@@ -10,12 +10,21 @@ const monthlyRent = 25000;
 The JavaScript Console is a part of the dev tools.
 console.log() is a function that prints to the console. 
 */
-const yearlyRent = monthlyRent * 2;
+const yearlyRent = monthlyRent * 12;
 console.log("yearly rent is:", yearlyRent)
-// students explore on javascript arithmetic operations
+// todo: students explore on javascript arithmetic operations
 
 let todayGoldRate = 160444;
 // let allows us to reassign values to the variable.
 todayGoldRate = 150000;
 console.log("gold rate: ", todayGoldRate)
 
+// increment and decrement operations
+let score = 24;
+// score = score + 1;
+score++ //25 
+score-- //24
+score-- //23
+// score += 2
+// score = score + 2;
+console.log('new score is:', score)
